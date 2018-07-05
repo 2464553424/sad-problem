@@ -15,6 +15,7 @@
 		F1B812F820EE072F0011D2F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B812F720EE072F0011D2F1 /* main.m */; };
 		F1B8130220EE072F0011D2F1 /* sadproblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B8130120EE072F0011D2F1 /* sadproblemTests.m */; };
 		F1B8130D20EE072F0011D2F1 /* sadproblemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B8130C20EE072F0011D2F1 /* sadproblemUITests.m */; };
+		F1B813DF20EE0D370011D2F1 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B813DE20EE0D370011D2F1 /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F1B8130820EE072F0011D2F1 /* sadproblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sadproblemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B8130C20EE072F0011D2F1 /* sadproblemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sadproblemUITests.m; sourceTree = "<group>"; };
 		F1B8130E20EE072F0011D2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B813DD20EE0D370011D2F1 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		F1B813DE20EE0D370011D2F1 /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		F1B812E720EE072E0011D2F1 /* sadproblem */ = {
 			isa = PBXGroup;
 			children = (
+				F1B813DC20EE0D2A0011D2F1 /* 测试 */,
 				F1B812E820EE072E0011D2F1 /* AppDelegate.h */,
 				F1B812E920EE072E0011D2F1 /* AppDelegate.m */,
 				F1B812EB20EE072E0011D2F1 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				F1B8130E20EE072F0011D2F1 /* Info.plist */,
 			);
 			path = sadproblemUITests;
+			sourceTree = "<group>";
+		};
+		F1B813DC20EE0D2A0011D2F1 /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				F1B813DD20EE0D370011D2F1 /* testViewController.h */,
+				F1B813DE20EE0D370011D2F1 /* testViewController.m */,
+			);
+			path = "测试";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				F1B812ED20EE072E0011D2F1 /* ViewController.m in Sources */,
 				F1B812F820EE072F0011D2F1 /* main.m in Sources */,
+				F1B813DF20EE0D370011D2F1 /* testViewController.m in Sources */,
 				F1B812EA20EE072E0011D2F1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
