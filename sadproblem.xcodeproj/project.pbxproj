@@ -107,6 +107,7 @@
 		F1B812E720EE072E0011D2F1 /* sadproblem */ = {
 			isa = PBXGroup;
 			children = (
+				F1DE465A20EF34F20082BF3F /* a */,
 				F1B813E020EE0ECC0011D2F1 /* 文件 */,
 				F1B813DC20EE0D2A0011D2F1 /* 测试 */,
 				F1B812E820EE072E0011D2F1 /* AppDelegate.h */,
@@ -156,6 +157,13 @@
 				F1B813E220EE0ED90011D2F1 /* asdViewController.m */,
 			);
 			path = "文件";
+			sourceTree = "<group>";
+		};
+		F1DE465A20EF34F20082BF3F /* a */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = a;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
